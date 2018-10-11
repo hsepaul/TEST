@@ -92,7 +92,7 @@ import static org.firstinspires.ftc.robotcore.external.navigation.VuforiaLocaliz
  */
 
 @TeleOp(name="Concept: Vuforia Rover Nav", group ="Concept")
-@Disabled
+
 public class ConceptVuforiaNavRoverRuckusExample extends LinearOpMode {
 
     /*
@@ -107,7 +107,7 @@ public class ConceptVuforiaNavRoverRuckusExample extends LinearOpMode {
      * Once you've obtained a license key, copy the string from the Vuforia web site
      * and paste it in to your code on the next line, between the double quotes.
      */
-    private static final String VUFORIA_KEY = " -- YOUR NEW VUFORIA KEY GOES HERE  --- ";
+    private static final String VUFORIA_KEY = "AZOzs1v/////AAAAGfZ89+YVSkARrJFO98YgYZIrm9u59C7mHH9KAhmKVs174QVvnERAm0c7uR/CtBfm6/yXZ0XTVs+StBBfcOxMLVA5lypX2pEWuHOaalFwucWGfCCC1Ky65+kcs2gbST2G/pIsCvOx6SyiuBalZnJui6J5kpHb8E0wEdXq4xQa29jW+IIUHkBAL0SzG6l+zhQiPiNI7CN22tAvm/MFaoafEdv9VFBAGYszNi7voUxXdJNqYF13wlKdg18SW3lucybVcpfUpoAFtkndnF7xYl2NCrUaoKMFuFO6MmzBk+/5V828nU6B2OjW6KpG1F5bGlw9A4Wa//yG6oMHubiqRZHMVlgkXnFzVIJ/JgpgZfIott3L";
 
     // Since ImageTarget trackables use mm to specifiy their dimensions, we must use mm for all the physical dimension.
     // We will define some constants and conversions here
